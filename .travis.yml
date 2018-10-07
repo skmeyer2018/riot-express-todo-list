@@ -16,7 +16,7 @@ cache:
   directories:
     - "node_modules"
 install:
-  -npm install -g npm@2
+  -npm install
 script:
   - npm test
 
