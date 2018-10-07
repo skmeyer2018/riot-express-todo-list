@@ -1,10 +1,7 @@
 # .travis.yml file
 language: node_js
 node_js:
-  - 8
-  - 6
-  - 4
-  - 0.12
+ - "6"
 before_install:
   - npm install -g npm@latest
 services: mongodb
