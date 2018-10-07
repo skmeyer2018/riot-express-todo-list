@@ -7,8 +7,6 @@ cache:
   directories:
     - "node_modules"
 sudo: false
-install:
-  -npm install
+install: - npm install
 script:
-  - npm test
-sudo: required
+- npm test
